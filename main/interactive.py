@@ -117,7 +117,7 @@ if __name__ == "__main__":
     # Streamlit UI
     # -----------------------
 
-    st.title("💷 Interactive Net Worth Forecaster")
+    st.title("💷 Interactive Net Worth Forecaster (not to be taken as financial advice)")
 
     # General params
     with st.sidebar:
