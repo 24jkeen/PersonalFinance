@@ -132,8 +132,8 @@ if __name__ == "__main__":
         bonus_growth = st.slider("Bonus growth rate %", -10.0, 10.0, 0.0, 0.5)
 
         st.subheader("Expenses")
-        exp_working = st.number_input("Annual expenses (working)", 0, 200000, 40000, 1000)
-        exp_retired = st.number_input("Annual expenses (retired)", 0, 200000, 45000, 1000)
+        exp_working = st.number_input("Annual expenses (working)", 0, 2000000, 0, 1000)
+        exp_retired = st.number_input("Annual expenses (retired)", 0, 2000000, 0, 1000)
 
     # Accounts
     st.header("Accounts")
